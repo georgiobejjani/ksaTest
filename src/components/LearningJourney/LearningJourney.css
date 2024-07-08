@@ -1,0 +1,259 @@
+.learningJourney__contentCard {
+    background-color: white;
+    border-radius: 48px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.learningJourney__part {
+    width: 50%;
+    margin: 32px;
+}
+
+.learningJourney__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #273A97;
+    font-family: 'Argentum Sans', sans-serif;
+}
+
+.learningJourney__description {
+    color: #878A8F;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Argentum Sans', sans-serif;
+}
+
+.learningJourney__description:after {
+    content: ' 2 Certifications - 1 Course ';
+    color: #878A8F;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Argentum Sans', sans-serif;
+}
+
+.learningJourney__earnings {
+    display: flex;
+}
+
+.skillsSet {
+    justify-content: space-between;
+}
+
+.learningJourney__earning {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.learningJourney__earning:nth-child(1) {
+    margin-left: 0;
+}
+
+.learningJourney__icon {
+    height: 17px;
+    margin-right: 8px;
+}
+
+.learningJourney__icon--skills {
+    height: 24px;
+}
+
+.learningJourney__label {
+    color: #878A8F;
+    font-family: 'Argentum Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.learningJourney__label--skills {
+    color: #475467;
+}
+
+.learningJourney__skillsTitle {
+    font-weight: 700;
+    font-size: 14px;
+    color: #878A8F;
+    margin: 32px 0 24px 0;
+}
+
+.learningJourney__separator {
+    width: 100%;
+    margin-top: 32px;
+}
+
+.learningJourney__dashed-line {
+    position: relative;
+    height: 2px;
+    margin: 0;
+}
+
+.learningJourney__dashed-line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: repeating-linear-gradient(to right, #C6C6D1, #C6C6D1 7px, transparent 5px, transparent 18px);
+}
+
+.learningJourney__quoteContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.learningJourney__trainerImg {
+    display: block;
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+}
+
+.learningJourney__quote {
+    margin-left: 16px;
+}
+
+.learningJourney__paragraph {
+    font-size: 16px;
+    font-family: 'Argentum Sans', sans-serif;
+    color: #878A8F;
+    line-height: 20.8px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.learningJourney__trainer {
+    margin-top: 8px;
+    font-size: 16px;
+    font-family: 'Argentum Sans', sans-serif;
+    font-weight: 300;
+    color: #878A8F;
+}
+
+.learningJourney__price {
+    font-family: 'Argentum Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #273A97;
+    display: inline-block;
+}
+
+.previousPrice {
+    color: #A7A9AC;
+    position: relative;
+}
+
+.previousPrice::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #A7A9AC;
+}
+
+.currentPrice {
+    margin-left: 24px;
+}
+
+.learningJourney__actions {
+    margin-top: 32px;
+}
+
+.learningJourney__btn {
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Argentum Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #F2F4F7;
+    position: relative;
+}
+
+
+.purchaseBtn {
+    background-color: #5091CD;
+    border: 1px solid #5091CD;
+    width: 251px;
+    margin-left: 24px;
+}
+
+.purchaseBtn:hover {
+    background-color: transparent;
+    border: 1px solid #5091CD;
+    color: #5091CD;
+}
+
+.learningJourney__btn:hover .learningJourney__btnIcon {
+    filter: brightness(0) saturate(100%) invert(59%) sepia(39%) saturate(712%) hue-rotate(170deg) brightness(84%) contrast(88%);
+}
+
+.learningJourney__btnIcon {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(1%) hue-rotate(137deg) brightness(103%) contrast(101%);
+}
+
+.learningJourney__btn.customizeProgram {
+    width: 251px;
+    background-color: transparent;
+    border: 1px solid #A35DB4;
+    color: #A35DB4;
+}
+
+.learningJourney__btn.customizeProgram:hover {
+    background-color: #A35DB4;
+    border: 1px solid #A35DB4;
+    color: white;
+}
+
+.learningJourney__btn.customizeProgram:hover .learningJourney__btnIcon.customizeIcon {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7498%) hue-rotate(64deg) brightness(111%) contrast(101%);
+}
+
+.learningJourney__btnIcon.customizeIcon {
+    filter: brightness(0) saturate(100%) invert(46%) sepia(70%) saturate(433%) hue-rotate(243deg) brightness(82%) contrast(89%);
+}
+
+.learningJourney__btn.viewAll {
+    width: 145px;
+    background-color: transparent;
+    border: 1px solid #273A97;
+    color: #273A97;
+    margin-left: 24px;
+}
+
+.learningJourney__btn.viewAll:hover {
+    background-color: #273A97;
+    color: white;
+}
+
+.learningJourney__btn.viewAll:hover .learningJourney__btnIcon.viewAllIcon {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7498%) hue-rotate(64deg) brightness(111%) contrast(101%);
+}
+
+.learningJourney__btnIcon.viewAllIcon {
+    filter: brightness(0) saturate(100%) invert(19%) sepia(24%) saturate(6266%) hue-rotate(221deg) brightness(94%) contrast(95%);
+}
+
+.learningJourney__actionBtns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.learningJourney__cards {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+    gap: 24px;
+}

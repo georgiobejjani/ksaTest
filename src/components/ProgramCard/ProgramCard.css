@@ -1,0 +1,160 @@
+.card {
+    max-width: 287px;
+    box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 0 0 15px 15px;
+}
+
+.card__content {
+    margin: auto;
+}
+
+.card__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 133px;
+    position: relative;
+}
+
+.card__header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(42, 40, 94, 0.6);
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+}
+
+.card__badges {
+    margin: 16px;
+    z-index: 2;
+}
+
+.card__badge {
+    padding: 8px;
+    border-radius: 8px;
+    width: fit-content;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.card__badge--date {
+    background-color: #DE8A00;
+    width: 112px;
+}
+
+.card__badge--new {
+    background: linear-gradient(90deg, #A35DB4 0%, #D789EA 100%);
+    width: 85px;
+    margin-top: 8px;
+}
+
+.card__favorite-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2F2F2F;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    margin: 16px;
+    z-index: 2;
+}
+
+.icon-favorites {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 16px;
+}
+
+.card__title {
+    font-size: 16px;
+    color: rgba(42, 40, 94, 1);
+    font-family: 'Argentum Sans', sans-serif;
+    font-weight: 700;
+    width: 70%;
+    margin: 16px;
+}
+
+.card__details {
+    border-style: dotted;
+    border-width: 1px 0 1px 0;
+    border-color: rgba(217, 217, 222, 1);
+    padding: 16px;
+}
+
+.card__detail {
+    display: flex;
+    align-items: center;
+}
+
+.card__aligned {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.icon-notification {
+    margin-right: 8px;
+    height: 20px;
+}
+
+.icon-label {
+    color: rgba(120, 119, 151, 1);
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Argentum Sans', sans-serif;
+}
+
+.card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 16px;
+}
+
+.card__attendees {
+    display: flex;
+}
+
+.card__attendee {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: -12px;
+    display: inline-block;
+}
+
+.card__attendee-count {
+    border: 0.5px solid rgba(198, 198, 209, 1);
+    border-radius: 50%;
+    font-size: 10px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background-color: white;
+    color: rgba(39, 58, 151, 1);
+    font-weight: 500;
+    font-family: 'Argentum Sans', sans-serif;
+}
+
+.card__notification {
+    display: flex;
+    align-items: center;
+}
+
+.card__notification-count {
+    font-family: 'Argentum Sans', sans-serif;
+    color: rgba(194, 36, 64, 1);
+    
+}

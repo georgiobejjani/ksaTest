@@ -1,0 +1,27 @@
+.journey {
+    padding-bottom: 30px;
+    background: linear-gradient(86.05deg, #273A97 0.84%, #5091CD 71.88%), url('../assets/images/BGLAYER.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+.journey__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Argentum Sans', sans-serif;
+    color: white;
+    padding-top: 60px;
+    margin: auto;
+}
+
+.journey__subTitle {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Argentum Sans', sans-serif;
+    color: white;
+    padding-top: 24px;
+}
